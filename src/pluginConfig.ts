@@ -1,16 +1,16 @@
 import type { ExternalPluginConfig } from '@windy/interfaces';
 
 const config: ExternalPluginConfig = {
-    name: 'windy-plugin-my-plugin',
-    version: '0.1.0',
-    icon: '🔌',
-    title: 'This is my first plugin',
-    description: 'This is my first plugin.',
-    author: 'John Doe (optional company name)',
-    repository: 'https://github.com/windycom/windy-plugin-template',
+    name: 'windy-plugin-pilot-pro',
+    version: '1.3.0',
+    icon: '🚁',
+    title: 'Pilot Pro',
+    description: 'Panel privado de meteorología para planificación de vuelo: viento, ráfagas, turbulencia, nubes, térmicas, lluvia, niveles y modelos de Windy.',
+    author: 'Pilot Pro',
     desktopUI: 'rhpane',
-    mobileUI: 'fullscreen',
-    routerPath: '/my-plugin',
+    desktopWidth: 380,
+    mobileUI: 'small',
+    routerPath: '/pilot-pro',
     private: true,
 };
 
